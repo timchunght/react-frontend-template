@@ -2,7 +2,7 @@
 node_modules
 .DS_Store
 public/bundle.js
-
+public/dist/*
 # OSX
 #
 .DS_Store

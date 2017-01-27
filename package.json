@@ -1,28 +1,37 @@
 {
-  "name": "modernplanit-portal-v2",
+  "name": "frontend-react-template",
   "version": "1.0.0",
-  "description": "Modern Planit Portal",
+  "description": "frontend-react-template",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "webpack",
+    "build": "webpack --watch",
+    "webpack": "webpack"
   },
   "author": "Timothy Chung",
   "license": "Proprietary",
   "dependencies": {
     "axios": "^0.14.0",
-    "express": "^4.14.0",
-    "mobx": "^2.5.1",
-    "mobx-react": "^3.5.6",
-    "react": "^15.3.1",
-    "react-dom": "^15.3.1",
-    "react-router": "^2.7.0"
-  },
-  "devDependencies": {
     "babel-core": "^6.14.0",
     "babel-loader": "^6.2.5",
     "babel-preset-es2015": "^6.14.0",
     "babel-preset-react": "^6.11.1",
-    "webpack": "^1.12.9",
+    "css-loader": "^0.26.1",
+    "express": "^4.14.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "mobx": "^2.5.1",
+    "mobx-react": "^3.5.6",
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0",
+    "react-dropzone": "^3.7.3",
+    "react-router": "^2.7.0",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.9"
+  },
+  "devDependencies": {
     "webpack-dev-server": "^1.15.1"
   }
 }
