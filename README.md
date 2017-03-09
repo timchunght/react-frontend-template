@@ -1,4 +1,4 @@
-## Modern Planit Portal V2
+## React Frontend Template
 ```bash
 npm install
 webpack -w # for asset compilation
